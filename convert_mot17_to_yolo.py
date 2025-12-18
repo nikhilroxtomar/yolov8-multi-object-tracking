@@ -5,7 +5,7 @@ from tqdm import tqdm
 from glob import glob
 
 ## Configuration
-MOT_ROOT = "/media/nikhil/New Volume/ML_DATASET/MOT17/train/"
+MOT_ROOT = "../MOT17/train/"
 OUT_ROOT = "data"
 
 SEQUENCES = sorted(glob(os.path.join(MOT_ROOT, "MOT17-*FRCNN")))
