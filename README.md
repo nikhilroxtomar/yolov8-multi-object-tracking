@@ -1,3 +1,4 @@
+![](banner.png)
 # Multi-Object Tracking with YOLOv8 and ByteTrack
 
 An end-to-end computer vision project for **object detection, multi-object tracking, and motion visualization** using YOLOv8 and ByteTrack.
