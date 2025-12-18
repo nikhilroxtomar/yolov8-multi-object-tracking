@@ -76,6 +76,7 @@ This project is designed to reflect **real-world computer vision systems**, not 
 
 7 directories, 10 files
 ```
+> Training artifacts under `runs/` are generated automatically by Ultralytics and are not part of the final model deliverables.
 
 ## Dataset
 
@@ -90,7 +91,9 @@ This project is designed to reflect **real-world computer vision systems**, not 
 
 Convert MOT17 annotations to YOLO format:
 
-``` python scripts/prepare_mot17_for_yolov8.py ```
+``` bash
+python scripts/prepare_mot17_for_yolov8.py
+```
 
 This step:
 - Converts MOT annotations to YOLO format
@@ -101,13 +104,17 @@ This step:
 
 Fine-tune a pretrained YOLOv8 model:
 
-``` python scripts/train_yolov8.py ```
+``` bash
+python scripts/train_yolov8.py
+```
 
 ## Tracking and Visualization
 
 Run detection + tracking with motion visualization:
 
-``` python scripts/track_mot17.py ```
+``` bash
+python scripts/track_mot17.py
+```
 
 This generates:
 - Annotated video with:
